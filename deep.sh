@@ -46,7 +46,7 @@ if [[ $yesno =~ "Y"|"y" ]]; then
     wget https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat
     read -rp "请设置UUID（如无设置则使用脚本默认的）：" uuid
     if [[ -z $uuid ]]; then
-        uuid="8d4a8f5e-c2f7-4c1b-b8c0-f8f5a9b6c384"
+        uuid="abc32ce4-9dde-4c1d-b825-c689ed3bf60c"
     fi
     cat <<EOF > config.json
 {
